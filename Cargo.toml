@@ -1,0 +1,10 @@
+[package]
+name = "echo-server-headers"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.5"
+tokio = { version = "1.20", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
